@@ -6,13 +6,13 @@ STEP 1.
 Initialize n=1
 
 STEP 2.
-a)if (number is divisible by 3 and 5)
+a) if (number is divisible by 3 and 5)
 	then print "FizzBuzz", Go to STEP3
-b)if (number is divisible by 3)
+b) if (number is divisible by 3)
 	then print "Fizz", Go to STEP3
-c)if (number is divisible by 5)
+c) if (number is divisible by 5)
 	then print "Buzz", Go to STEP3
-d)print n
+d )print n
 
 STEP 3. 
 Increment n by 1 (n++) 
