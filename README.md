@@ -21,21 +21,26 @@ else stop
 
 c)program
 int main()
-n=1;
- for (n=1; n<=30; n++)
+{
+    int i;
+    for (i=1; i<=100; i++)
     {
-        if ((n%3 == 0) && (n%5 == 0))       
+       
+        if ((i%3 == 0) && (i%5 == 0))       
             printf ("FizzBuzz\t");   
          
-        else if ((n%3) == 0)   
+        
+        else if ((i%3) == 0)   
             printf("Fizz\t");                
          
-        else if ((n%5) == 0)                      
+      
+        else if ((i%5) == 0)                      
             printf("Buzz\t");                
      
-        else // print the number           
-            printf("%d\t", n);                
+        else           
+            printf("%d\t", i);                
  
     }
-return 0;
+ 
+    return 0;
 }
