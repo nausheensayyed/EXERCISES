@@ -19,8 +19,11 @@ Increment n by 1 (n++)
 if n<=30 Go to Step 2
 else stop
 
+c)program:
+ 
 int main()
 {
+
     int i;
     for (i=1; i<=100; i++)
     {
@@ -42,4 +45,5 @@ int main()
     }
  
     return 0;
+    
 }
